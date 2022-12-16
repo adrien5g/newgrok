@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "newgrok"
-version = "0.3.0"
+version = "0.4.0"
 description = "Keep ngrok free tier alive"
 authors = ["Adrien <adrienv.sui@gmail.com>"]
 readme = "README.md"
