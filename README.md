@@ -37,7 +37,7 @@
 ---
 ## Setup
 
-* First you need to set the environment variables, chat_id for later, edit the ```.env``` file
+* First you need to set the environment variables, chat_id for later, create and edit the ```.env``` file
     ```python
     app_port=8000
     protocol=http
