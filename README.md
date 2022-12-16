@@ -56,7 +56,7 @@
     chat_id=********
     ```
 * Now with these 3 lines of code, newgrok is already running, enjoy
-    ```
+    ```python
     from newgrok import Newgrok
 
     ngrok = Newgrok()
