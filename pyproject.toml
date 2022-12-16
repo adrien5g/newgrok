@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "newgrok"
+version = "0.3.0"
+description = "Keep ngrok free tier alive"
+authors = ["Adrien <adrienv.sui@gmail.com>"]
+readme = "README.md"
+packages = [{include = "newgrok"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^0.21.0"
+requests = "^2.28.1"
+pytelegrambotapi = "^4.8.0"
+
+[tool.poetry.scripts]
+chat_id = "newgrok.cli.chat:get_chat_id"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
