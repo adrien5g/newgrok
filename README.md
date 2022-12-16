@@ -28,7 +28,7 @@
     ```
 ---
 ## Variables
-|           |                                                 |
+| Variable  |                                                 |
 |-----------|-------------------------------------------------|
 | app_port  | Port of the application running on your machine |
 | protocol  | Network protocol you want to use                |
@@ -38,7 +38,7 @@
 ## Setup
 
 * First you need to set the environment variables, chat_id for later, edit the ```.env``` file
-    ```
+    ```python
     app_port=8000
     protocol=http
     bot_token=******************************
@@ -49,7 +49,7 @@
     chat_id
     ```
     Now send a message to the bot, and it will reply with the chat_id. Complete the ```.env``` file
-    ```
+    ```python
     app_port=8000
     protocol=http
     bot_token=******************************
