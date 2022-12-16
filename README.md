@@ -18,7 +18,7 @@
 
 * With pip
     ```
-    pip3 newgrok
+    pip3 install newgrok
     ```
 
 * With poetry:
